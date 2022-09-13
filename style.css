@@ -70,6 +70,7 @@ footer {
   background-color: var(--green-col);
 }
 .footer_container_grid {
+  /*design af grid - om os / information */
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: left;
@@ -80,6 +81,7 @@ footer {
 }
 
 .icon {
+  /*design og placering af iG og mail iconer*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 15px;
@@ -91,10 +93,12 @@ footer {
 
 .højre_col,
 .venstre_col {
+  /*placering af om os / information kolloner*/
   place-self: center center;
 }
 
 .copyright {
+  /*design af  af copyright tag*/
   text-align: center;
   color: white;
   margin: 1rem;
